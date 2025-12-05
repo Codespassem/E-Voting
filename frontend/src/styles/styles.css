@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+nav {
+  background-color: #282c34;
+  color: white;
+  padding: 10px 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background-color: #282c34;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3c4048;
+}
+
+/* Candidate List specific styles */
+.candidate-list {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+.candidate-list h2 {
+  text-align: center;
+}
+
+.candidate-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.candidate-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 8px 0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.candidate-list li.voted {
+  background-color: #d4edda;
+}
+
+.candidate-list button {
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.candidate-list button.voted {
+  background-color: #28a745;
+}
+
+.candidate-list button:not(.voted):hover {
+  background-color: #007bff;
+}
